@@ -5,7 +5,6 @@ struct Position {
     y: i32,
 }
 
-/// https://adventofcode.com/2021/day/1#part1
 pub fn part_1() -> i32 {
     let file_content =
         fs::read_to_string("src/day2/input.txt").expect("Something went wrong reading the file");
