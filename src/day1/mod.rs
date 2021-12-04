@@ -1,7 +1,6 @@
 use std::fs;
 
-/// https://adventofcode.com/2021/day/1#part1
-pub fn day1_1() -> i32 {
+pub fn part_1() -> i32 {
     let file_content = fs::read_to_string("src/day1/input.txt")
         .expect("Something went wrong reading the file");
 
@@ -18,8 +17,7 @@ pub fn day1_1() -> i32 {
     inc
 }
 
-/// https://adventofcode.com/2021/day/1#part2
-pub fn day1_2() -> i32 {
+pub fn part_2() -> i32 {
     let file_content = fs::read_to_string("src/day1/input.txt")
         .expect("Something went wrong reading the file");
 
